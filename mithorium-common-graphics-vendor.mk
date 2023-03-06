@@ -4,7 +4,7 @@ ifeq ($(TARGET_USES_Q_DISPLAY_STACK),true)
             $(call find-copy-subdir-files,*,vendor/xiaomi/mithorium-common-graphics/olive-Q/vendor/,$(TARGET_COPY_OUT_VENDOR)/)
     else ifeq ($(TARGET_BOARD_PLATFORM),msm8953)
         PRODUCT_COPY_FILES += \
-            $(call find-copy-subdir-files,*,vendor/xiaomi/mithorium-common-graphics/daisy-Q/vendor/,$(TARGET_COPY_OUT_VENDOR)/)
+            $(call find-copy-subdir-files,*,vendor/xiaomi/mithorium-common-graphics/onc-Q/vendor/,$(TARGET_COPY_OUT_VENDOR)/)
     endif
 else
     PRODUCT_COPY_FILES += \
