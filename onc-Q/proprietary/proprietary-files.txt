@@ -1,40 +1,40 @@
-# All unpinned blobs below are extracted from LA.UM.9.6.3.r1-06200-89xx.0
+# All unpinned blobs below are extracted from xiaomi/onc/onc:10/QKQ1.191008.001/V12.5.3.0.QFLCNXM:user/release-keys
 
 # Graphics (32-bit)
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
+-vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/hw/vulkan.adreno.so:vendor/lib/vulkan.adreno.so
-vendor/lib/libC2D2.so
-vendor/lib/libCB.so
-vendor/lib/libOpenCL.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libc2d30-a3xx.so
+vendor/lib/egl/libQTapGLES.so
+vendor/lib/hw/vulkan.msm8953.so:vendor/lib/vulkan.msm8953.so
+vendor/lib/libadreno_utils.so  
+-vendor/lib/libC2D2.so
 vendor/lib/libc2d30_bltlib.so
+vendor/lib/libCB.so
 vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
+vendor/lib/libOpenCL.so
 
 # Graphics (64-bit)
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
+-vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/hw/vulkan.adreno.so:vendor/lib64/vulkan.adreno.so
-vendor/lib64/libC2D2.so
-vendor/lib64/libCB.so
-vendor/lib64/libOpenCL.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libc2d30-a3xx.so
+vendor/lib64/egl/libQTapGLES.so
+vendor/lib64/hw/vulkan.msm8953.so:vendor/lib64/vulkan.msm8953.so
+vendor/lib64/libadreno_utils.so  
+-vendor/lib64/libC2D2.so
 vendor/lib64/libc2d30_bltlib.so
+vendor/lib64/libCB.so
 vendor/lib64/libgsl.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
+vendor/lib64/libOpenCL.so
 
 # Graphics (Postprocessing) - mm-pp-dpps
 vendor/bin/mm-pp-dpps
